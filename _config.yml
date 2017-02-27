@@ -1,2 +1,4 @@
 exclude: ['README.md']
 permalink: pretty
+markdown: kramdown
+pygments: true

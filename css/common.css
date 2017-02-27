@@ -2,11 +2,11 @@ html{
 	margin: 0;
 	padding: 0;
 	text-align: center;
-	font:normal 100%/1.4 Georgia,serif;
+	font:normal 100%/1.4 Cursive,Monospace;
+	background-color: #FFFFFF;
 }
 
 .site-name{
-	margin-top: 0.05%;
 	float: left;
 	width: 40%;
 }
@@ -14,7 +14,7 @@ html{
 .nav-bar{
 	float: left;
 	width: 60%;
-	margin-top: 0.1%;
+	margin-top: 2%;
 
 }
 
@@ -22,12 +22,18 @@ html{
 	text-align: center;
 }
 
+.front-img{
+	width: 75%;
+	padding: 3%;
+}
+
 .clear-content{
 	clear: left;
 }
 
 a{
-	color: #558b2f;
+	color: #424242;
+	font-weight: bold;
 	text-decoration: none;
 	border-bottom: solid 2.5px transparent;
 
@@ -35,11 +41,15 @@ a{
 
 
 .url-hover:hover{
-	border-bottom: solid 2.5px #558b2f;
+	border-bottom: solid 2.5px #424242;
 	transition: border-bottom 0.7s ease-in-out;
 }
 
+.content-layout{
+	margin-left: 15%;
+	text-align: left;
 
+}
 
 .nav{
 	margin: 0;
@@ -51,7 +61,7 @@ a{
 .nav > li {
 	display: inline-block;
 	padding: 2%;
-	color: #558b2f;
+	color: #795548;
 }
 
 hr{
@@ -61,12 +71,10 @@ hr{
 
 .about-title{
 	color: #5c5c5c;
-	margin-left: 20%;
 	text-align: left;
 }
 
 .about-content{
 	color: #5c5c5c;
-	margin-left: 20%;
 	text-align: left;
 }
