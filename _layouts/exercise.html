@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<nav>
+	<ul>
+		<li><a href="/exercise" class="{% if page.url contains 'exercise' %} current {% endif %}">Leetcode</a></li>
+		<li><a href="/interview" class="{% if page.url contains 'interview' %} current {% endif %}">Interview</a></li>
+	</ul>
+</nav>
+
+
+{{content}}

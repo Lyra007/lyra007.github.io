@@ -1,0 +1,13 @@
+---
+layout: exercise
+---
+
+<ul>
+	{% for blog in site.categories.interview  %}
+		<li>
+			<a href="">{{blog.title}}</a>
+			<p>{{blog.meta}}</p>
+
+		</li>
+	{% endfor %}
+</ul>

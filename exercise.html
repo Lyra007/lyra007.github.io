@@ -1,5 +1,14 @@
 ---
-layout: default
+layout: exercise
 ---
+<h1>exercise</h1>
 
-<p>My exercise in leetcode</p>
+<ul>
+	{% for blog in site.categories.leetcode  %}
+		<li>
+			<a href="{{blog.url}}">{{blog.title}}</a>
+			<p>{{blog.meta}}</p>
+
+		</li>
+	{% endfor %}
+</ul>

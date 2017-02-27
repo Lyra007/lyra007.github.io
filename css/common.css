@@ -1,0 +1,66 @@
+html{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font:normal 100%/1.4 Georgia,serif;
+}
+
+.site-name{
+	float:left;
+	width: 50%;
+}
+
+.nav-bar{
+	float: left;
+	width: 50%;
+	margin-top: 20px;
+}
+
+.content{
+	text-align: center;
+}
+
+a{
+	color: #558b2f;
+	text-decoration: none;
+	border-bottom: 3px solid transparent;
+	transition: all ease-in-out 0.7s;
+	
+
+}
+
+a:hover{
+	color: #558b2f;
+	border-color: #558b2f;
+
+}
+
+
+.nav{
+	margin: 0;
+	padding: 0;
+
+	list-style-type: none;
+}
+
+.nav > li {
+	display: inline-block;
+	padding: 10px;
+}
+
+hr{
+	border: 0.5;
+	border-color: #eeeeee;
+}
+
+.about-title{
+	color: #5c5c5c;
+	margin-left: 30%;
+	text-align: left;
+}
+
+.about-content{
+	color: #5c5c5c;
+	margin-left: 30%;
+	text-align: left;
+}

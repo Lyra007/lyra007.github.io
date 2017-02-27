@@ -1,23 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Lyra's site</title>
+	<link rel="stylesheet" type="text/css" href="/css/common.css">
 </head>
 <body>
 <header>
-	
-	<h1>My site</h1>
-	<nav>
-		<ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="exercise.html">My Exercises</a></li>
-			<LI><a href="">My Projects</a></LI>
-			<li><a href="">My Daily Life</a></li>
-
-		</ul>
-	</nav>
+	<div class="site-name">
+	<h2> My site</h2>
+	</div>
+	<div class="nav-bar">
+	{% include nav.html navclass='nav-top' %}
+	</div>
 </header>
+
 {{content}}
+
+<footer>
+	{% include nav.html navclass='nav-bottom' %}
+
+	<p>© 2017 Created By Dake</p>
+
+</footer>
+
+
+
 
 </body>
 </html>
