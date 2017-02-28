@@ -12,3 +12,12 @@ layout: default
 
 
 {{content}}
+
+<div>
+	{% if page.previous.url %}
+	<a href="{{page.previous.url}}" class="page-previous"> Previous Question: {{page.previous.title}} </a>
+	{% endif %}
+	{% if page.next.url %}
+	<a href="{{page.next.url}}" class="page-next"> Next Question: {{page.next.title}} </a>
+	{% endif %}
+</div>

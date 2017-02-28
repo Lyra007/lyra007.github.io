@@ -8,6 +8,7 @@ date: 2017-02-28 00:00:00 -0000
 
 [Leetcode 344.Reverse String](https://leetcode.com/problems/reverse-string/)
 
+### *Description:*
 
 Write a function that takes a string as input and returns the string reversed.
 
@@ -35,5 +36,5 @@ public:
 
 {% endhighlight %}
 
-### *Discuss:*
+### *Some thoughts:*
 I have a [Memory Limit Exceeded](https://leetcode.com/submissions/detail/94811788/) error for original answer. The reason may be creating a varible that is exceeding memory.
