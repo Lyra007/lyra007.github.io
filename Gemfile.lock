@@ -164,6 +164,7 @@ GEM
     mini_portile2 (2.1.0)
     minima (2.0.0)
     minitest (5.8.4)
+    multi_json (1.12.1)
     multipart-post (2.0.0)
     net-dns (0.8.0)
     nokogiri (1.6.8.1)
@@ -173,9 +174,12 @@ GEM
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
     public_suffix (2.0.5)
+    pygments.rb (1.1.1)
+      multi_json (>= 1.0.0)
     rb-fsevent (0.9.8)
     rb-inotify (0.9.8)
       ffi (>= 0.5.0)
+    redcarpet (3.4.0)
     rouge (1.11.1)
     safe_yaml (1.0.4)
     sass (3.4.23)
@@ -196,6 +200,8 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  pygments.rb
+  redcarpet
 
 BUNDLED WITH
    1.11.2

@@ -12,7 +12,7 @@
 <body>
 <header>
 	<div class="site-name">
-	<h1><a href="/index"> Lyra's site</a></h1>
+	<h1><a href="/index" class="title-name"> Lyra's site</a></h1>
 	</div>
 	<div class="nav-bar">
 	{% include nav.html navclass='nav-top' %}
@@ -24,10 +24,13 @@
 <div class="content-layout">
 {{content}}
 </div>
+
+<div class="clear-content"></div>
+
 <footer>
 	{% include nav.html navclass='nav-bottom' %}
 
-	<p>© 2017 Created By Dake</p>
+	<p class="right-sentence">© 2017 Created By Lyra. All rights reserved</p>
 
 </footer>
 

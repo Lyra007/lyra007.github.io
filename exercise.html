@@ -1,14 +1,17 @@
 ---
 layout: exercise
 ---
-<h1>exercise</h1>
+<h1>Practice using leetcode</h1>
 
 <ul>
 	{% for blog in site.categories.leetcode  %}
-		<li>
-			<a href="{{blog.url}}">{{blog.title}}</a>
-			<p>{{blog.meta}}</p>
-
+		<li class="blog-layout">
+		<div >
+			<a href="{{blog.url}}" class="url-hover blog-title" >{{blog.title}}</a>
+		</div>
+		<div class="blog-date">	
+			<p >{{ blog.date | date: '%B %d, %Y' }}</p>
+		</div>	
 		</li>
 	{% endfor %}
 </ul>

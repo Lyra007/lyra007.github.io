@@ -2,13 +2,20 @@ html{
 	margin: 0;
 	padding: 0;
 	text-align: center;
-	font:normal 100%/1.4 Cursive,Monospace;
 	background-color: #FFFFFF;
+	font:normal 100%/1.4 "Lucida Console", Monaco, monospace;
 }
+
 
 .site-name{
 	float: left;
 	width: 40%;
+}
+
+.title-name{
+	color:  #424242;
+	font:normal 100%/1.4 "Courier New", Courier, monospace;
+
 }
 
 .nav-bar{
@@ -32,8 +39,7 @@ html{
 }
 
 a{
-	color: #424242;
-	font-weight: bold;
+	color: #0086b3;
 	text-decoration: none;
 	border-bottom: solid 2.5px transparent;
 
@@ -41,7 +47,7 @@ a{
 
 
 .url-hover:hover{
-	border-bottom: solid 2.5px #424242;
+	border-bottom: solid 2.5px #0086b3;
 	transition: border-bottom 0.7s ease-in-out;
 }
 
@@ -49,6 +55,25 @@ a{
 	margin-left: 15%;
 	text-align: left;
 
+}
+
+.blog-title{
+	float: left;
+	color: #424242;
+}
+
+.list-title{
+	color: #424242;
+}
+
+.blog-date{
+	font-size: 70%;
+	text-align: right;
+	margin-right: 20%;
+}
+
+.blog-layout{
+	list-style-type: none;
 }
 
 .nav{
@@ -64,6 +89,14 @@ a{
 	color: #795548;
 }
 
+.nav-top{
+	font-size: 90%;
+}
+
+.nav-bottom{
+	font-size: 70%;
+}
+
 hr{
 	border: 0.5;
 	border-color: #eeeeee;
@@ -77,4 +110,9 @@ hr{
 .about-content{
 	color: #5c5c5c;
 	text-align: left;
+}
+
+.right-sentence{
+	font-size: 60%;
+	margin-bottom: 3%;
 }
