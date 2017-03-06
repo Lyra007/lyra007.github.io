@@ -1,9 +1,9 @@
 ---
 layout: exercise
-title:  344. Reverse String
+title:  
 category: leetcode
 tags: [Leetcode, Easy]
-date: 2017-02-28 00:00:00 -0000
+date: 2017-03-01 00:00:00 -0000
 ---
 
 [Leetcode 344.Reverse String](https://leetcode.com/problems/reverse-string/)
@@ -25,3 +25,5 @@ date: 2017-02-28 00:00:00 -0000
 
 
 {% endhighlight %}
+
+### *Some thoughts :*

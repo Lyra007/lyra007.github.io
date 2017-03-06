@@ -1,6 +1,31 @@
+.about-title{
+	color: #5c5c5c;
+	text-align: left;
+}
+
+.about-content{
+	color: #5c5c5c;
+	text-align: left;
+}
+
+.blog-date{
+	font-size: 70%;
+	text-align: right;
+	margin-right: 20%;
+}
+
 .blog-title{
 	float: left;
 	color: #424242;
+}
+
+.blog-title-layout{
+	list-style-type: none;
+}
+
+.blog-content-layout{
+	margin-right: 10%;
+
 }
 
 .content-layout{
@@ -22,49 +47,21 @@
 }
 
 
-.nav-bar{
-	float: left;
-	width: 60%;
-	margin-top: 2%;
-
-}
-
-.site-name{
-	float: left;
-	width: 40%;
-}
-
-.title-name{
-	color:  #424242;
-	font:normal 100%/1.4 "Courier New", Courier, monospace;
-
-}
-
-
-.url-hover:hover{
-	border-bottom: solid 2.5px #0086b3;
-	transition: border-bottom 0.7s ease-in-out;
-}
-
-
 .list-title{
 	color: #424242;
 }
 
-.blog-date{
-	font-size: 70%;
-	text-align: right;
-	margin-right: 20%;
+
+.nav-bar{
+	float: left;
+	width: 60%;
+	margin-top: 2%;
 }
 
-.blog-layout{
-	list-style-type: none;
-}
 
 .nav{
 	margin: 0;
 	padding: 0;
-
 	list-style-type: none;
 }
 
@@ -82,17 +79,22 @@
 	font-size: 70%;
 }
 
-
-
-.about-title{
-	color: #5c5c5c;
-	text-align: left;
+.site-name{
+	float: left;
+	width: 40%;
 }
 
-.about-content{
-	color: #5c5c5c;
-	text-align: left;
+.title-name{
+	color:  #424242;
+	font:normal 100%/1.4 "Courier New", Courier, monospace;
 }
+
+
+.url-hover:hover{
+	border-bottom: solid 2.5px #0086b3;
+	transition: border-bottom 0.7s ease-in-out;
+}
+
 
 .right-sentence{
 	font-size: 60%;
@@ -109,6 +111,7 @@
 	font-size: 90%;
 	font-family: Arial, Helvetica, sans-serif;
 	float: right;
+	margin-right: 15%;
 }
 
 a{
