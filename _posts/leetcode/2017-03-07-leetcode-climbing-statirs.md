@@ -6,7 +6,7 @@ tags: [Leetcode, Easy, dp]
 date: 2017-03-07 00:00:00 -0000
 ---
 
-[Leetcode 70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
+[ Leetcode 70. Climbing Stairs ](https://leetcode.com/problems/climbing-stairs/)
 
 ### *Description:*
 
@@ -48,4 +48,3 @@ public:
 
 {% endhighlight %}
 
-### *Some thoughts :*
