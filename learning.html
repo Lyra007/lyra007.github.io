@@ -1,5 +1,17 @@
 ---
-layout: default
+layout: exercise
 ---
+<h1>Learning </h1>
 
-<p>I'm the learning page</p>
+<ul>
+	{% for blog in site.categories.learning  %}
+		<li class="blog-title-layout">
+		<div >
+			<a href="{{blog.url}}" class="url-hover blog-title" >{{blog.title}}</a>
+		</div>
+		<div class="blog-date">	
+			<p >{{ blog.date | date: '%B %d, %Y' }}</p>
+		</div>	
+		</li>
+	{% endfor %}
+</ul>
