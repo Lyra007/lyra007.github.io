@@ -7,10 +7,11 @@ tags: rakefile
 keywords: none
 ---
 
-# 在mac下run github.io
+# How to use rakefile
 
 太久没写技术博客了。导致之前写rakrfile的时候的要点和使用方法都忘光了。
 先简单写一下使用方法。
+
 * 使用<mark>rake add["title name"]</mark>
 * 然后step by step
 

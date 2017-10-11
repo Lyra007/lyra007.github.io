@@ -30,3 +30,5 @@ keywords: none
 
 还有一个问题是升级homebrew，可以用<mark>sudo chown -R $(whoami) /usr/local</mark>
 
+BTW, using <mark>jekyll serve</mark> to run github.io
+
