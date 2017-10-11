@@ -2,16 +2,35 @@
 layout: exercise
 ---
 
-<h2>Some particular interview questions to review.</h2>
-<ul>
-	{% for blog in site.categories.interview  %}
-		<li class="blog-layout">
-		<div >
-			<a href="{{blog.url}}" class="url-hover blog-title" >{{blog.title}}</a>
-		</div>
-		<div class="blog-date">	
-			<p >{{ blog.date | date: '%B %d, %Y' }}</p>
-		</div>	
-		</li>
-	{% endfor %}
-</ul>
+<h2>Some particular questions to review.</h2>
+<div>
+	<h3>Unassigned questions</h3>
+	<ul>
+		{% for blog in site.categories.interview  %}
+			<li class="blog-layout">
+			<div >
+				<a href="{{blog.url}}" class="url-hover blog-title" >{{blog.title}}</a>
+			</div>
+			<div class="blog-date">	
+				<p >{{ blog.date | date: '%B %d, %Y' }}</p>
+			</div>	
+			</li>
+		{% endfor %}
+	</ul>
+</div>
+
+<div>
+	<h3>Network</h3>
+	<ul>
+		{% for blog in site.categories.network  %}
+			<li class="blog-layout">
+			<div >
+				<a href="{{blog.url}}" class="url-hover blog-title" >{{blog.title}}</a>
+			</div>
+			<div class="blog-date">	
+				<p >{{ blog.date | date: '%B %d, %Y' }}</p>
+			</div>	
+			</li>
+		{% endfor %}
+	</ul>
+</div>
