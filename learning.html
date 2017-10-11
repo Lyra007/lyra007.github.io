@@ -1,17 +1,5 @@
 ---
 layout: learn
 ---
-<h1>Learning </h1>
 
-<ul>
-	{% for blog in site.categories.learning  %}
-		<li class="blog-title-layout">
-		<div >
-			<a href="{{blog.url}}" class="url-hover blog-title" >{{blog.title}}</a>
-		</div>
-		<div class="blog-date">	
-			<p >{{ blog.date | date: '%B %d, %Y' }}</p>
-		</div>	
-		</li>
-	{% endfor %}
-</ul>
+

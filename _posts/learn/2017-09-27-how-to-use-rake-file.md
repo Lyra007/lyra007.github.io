@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: learn
 title: How to use rakefile
 date: 2017-09-27 00:54:50 +0800
 categories: learning

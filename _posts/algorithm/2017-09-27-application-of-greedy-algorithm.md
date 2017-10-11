@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: learn
 title: Application of Greedy Algorithm
 date: 2017-09-27 01:20:15 +0800
 categories: algorithm

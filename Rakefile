@@ -101,6 +101,8 @@ desc "Add a new post in _posts"
 task :add do
   puts "Choose a folder under _posts to store your blog : "
   @folder = STDIN.gets.chomp
+  puts "Choose a template you would like to use for your post : "
+  @template = STDIN.gets.chomp
   puts "Input File Name(for Url)："
   @url = STDIN.gets.chomp
   puts "Input Article Title(for Article)："
@@ -123,7 +125,7 @@ task :add do
   FileUtils.touch(@post_name)
   open(@post_name, 'a') do |file|
     file.puts "---"
-    file.puts "layout: default"
+    file.puts "layout: #{@template}"
     file.puts "title: #{@name}"
     file.puts "date: #{Time.now}"
     file.puts "categories: #{@categories}"

@@ -2,6 +2,16 @@
 layout: default
 ---
 
+<h1>Learning </h1>
+
+<h3>Note category:</h3>
+<nav>
+	<ul>
+		<li><a href="/algorithm" class="{% if page.url contains 'algorithm' %} current {% endif %} url-hover list-title">Algorithm</a></li>
+		<li><a href="/practice" class="{% if page.url contains 'practice' %} current {% endif %} url-hover list-title">Practice</a></li>
+	</ul>
+</nav>
+
 <div class="blog-content-layout">
 
 {{content}}
