@@ -2,7 +2,7 @@
 layout: exercise
 title: Summary on TCP/IP
 date: 2017-10-11 18:23:52 +0800
-categories: interview
+categories: network
 tags: Network,TCP,IP
 keywords: Network
 ---
