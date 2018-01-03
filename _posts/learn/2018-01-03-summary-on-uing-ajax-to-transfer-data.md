@@ -1,6 +1,6 @@
 ---
 layout: learn
-title: 
+title: Summary on uing ajax to transfer data
 date: 2018-01-03 18:09:44 +0800
 categories: learning
 tags: php,ajax
