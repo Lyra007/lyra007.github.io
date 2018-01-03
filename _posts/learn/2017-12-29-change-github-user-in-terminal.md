@@ -8,7 +8,7 @@ keywords: none
 ---
 
 git config credential.username Resberrypi
-、、第一句最有效
+//第一句最有效
 git config --global user.email
 git config --global user.name
 can be used for some reasons
