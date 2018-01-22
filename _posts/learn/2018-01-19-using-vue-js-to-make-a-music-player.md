@@ -101,6 +101,10 @@ An example could be:
 
 ```
 
+one thing need to pay attention to is to make sure there is no grammar mistakes for exmaple, component->components
+
+Be careful about the keywords in any languages
+
 
 
 
