@@ -32,3 +32,7 @@ keywords: none
 
 BTW, using <mark>jekyll serve</mark> to run github.io
 
+
+bundler: exec needs a command to run
+
+bundle exec jeklyy serve
