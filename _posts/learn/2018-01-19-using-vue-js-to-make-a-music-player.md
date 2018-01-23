@@ -105,6 +105,16 @@ one thing need to pay attention to is to make sure there is no grammar mistakes 
 
 Be careful about the keywords in any languages
 
+## stage two: build a music player
+start to build a music player
+
+1. could use vue resouce to get data from json or from api url
+
+2. could use dom function play and pause to start and stop audio and video
+
+One thing need to be mention here is we need to wait for play function loaded before using it. Thus, we could use oncanplay function to wait till it finishes loading.
+
+3. using props to communicate between components
 
 
 
