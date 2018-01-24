@@ -116,5 +116,22 @@ One thing need to be mention here is we need to wait for play function loaded be
 
 3. using props to communicate between components
 
+There is a test props in music player repo.
+
+Composition:
+
+* main.js                =>       register parent.vue
+* parent.vue             =>       template  ----  using child component and deliver value to child 
+                                  script    ----  import and register child component   
+* child.vue              =>       template  ----  using value 
+                                  script    ----  claim props 
+
+
+
+
+
+
+
+
 
 
