@@ -1,2 +1,2 @@
 # lyra007.github.io
-To record the learning 
+To record the learning and 
