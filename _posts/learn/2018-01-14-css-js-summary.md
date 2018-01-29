@@ -10,13 +10,13 @@ keywords: jnj,css
 css js学习总结
 1. Universal Selector : using * to select all element/matches elements of any types/ 
 example:
-<mark>
+
 
 *{
 	margin: 0;
 	padding: 0;
 }
-</mark>
+
 
 可以覆盖原有的设置
 
