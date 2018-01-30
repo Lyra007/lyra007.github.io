@@ -10,6 +10,7 @@ keywords: jnjdemo,modal window, form,drupal
 # add modal window for form from links in view
 
 Spent so much time on investing this > <
+
 A very good reference could be [this one](https://www.drupal.org/forum/support/module-development-and-code-questions/2016-04-12/open-modal-pop-up-form-from-a-view) as well as [this one ](https://www.drupal.org/project/ctools/issues/1209472)
 
 In the happy.module, the code are following:
