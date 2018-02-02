@@ -62,7 +62,7 @@ Basic steps could be:
 
 There should be an ajax key in the array of submit
 
-Also, we use tree to build different field with same values.
+- Also, we use tree to build different field with same values.
 
   <mark> $form['#tree'] = TRUE </mark>
 
