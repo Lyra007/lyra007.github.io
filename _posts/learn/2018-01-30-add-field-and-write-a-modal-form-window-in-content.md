@@ -29,5 +29,41 @@ Basic steps could be:
 6. submition could use <mark>entity_create</mark>, <mark>entity_metadata_wrapper</mark> as well as <mark> save</mark>.
 
 ## add more form 
+- Basically, add more form is a form that has ability to add more rows and remove unwanted rows
+- it use ajax to submit features
 
-1. 
+* The way using ajax to submit:
+
+{% highlight php linenos %}
+
+  $form['info_fieldset']['add_row'] = array(
+    '#type' => 'submit',
+    '#value' => t('增加一组'),
+    '#limit_validation_errors' => array(),       // No validation.
+    '#submit' => array('add_row_add_one'),
+    '#ajax' => array(
+      'callback' => 'addone_callback',
+      'wrapper' => 'info-fieldset-wrapper',
+    ),
+  );
+
+{% endhighlight %}
+
+* The way using normal submit to submit:
+
+{% highlight php linenos %}
+
+  $form['submit_button'] = array(
+    '#type' => 'submit',
+    '#value' => t('提交报名!'),
+  );
+
+{% endhighlight %}
+
+There should be an ajax key in the array of submit
+
+Also, we use tree to build different field with same values.
+
+  <mark> $form['#tree'] = TRUE </mark>
+
+
