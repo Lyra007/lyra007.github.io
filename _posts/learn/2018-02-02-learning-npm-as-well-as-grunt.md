@@ -66,8 +66,11 @@ module.exports = function(grunt) {
 {% endhighlight %}
 
 In this example, what codes try to do is to merge the content in hello.txt and content in world.txt into helloworld.txt.
+
 grunt.initConfig is used to init and set property
+
 <mark>    grunt.registerTask('default', ['concat']); </mark> is used to set the order of task
+
 so the above code could be written like:
 
 {% highlight javascript linenos%}
