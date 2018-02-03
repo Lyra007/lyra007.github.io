@@ -11,11 +11,13 @@ css js学习总结
 1. Universal Selector : using * to select all element/matches elements of any types/ 
 example:
 
+{% highlight css linenos%}
 
-*{
-	margin: 0;
-	padding: 0;
-}
+	*{
+		margin: 0;
+		padding: 0;
+	}
+{% endhighlight %}
 
 
 可以覆盖原有的设置
@@ -24,8 +26,13 @@ example:
 allows you to insert content onto a page from CSS (without it needing to be in the HTML)
 伪类
 example: 
-element::before { style properties }  /* CSS3 syntax */
-element::after { style properties }  /* CSS3 syntax */
+
+{% highlight css linenos%}
+
+	element::before { style properties }  /* CSS3 syntax */
+	element::after { style properties }  /* CSS3 syntax */
+
+{% endhighlight %}
 
 
 select fontawesome icon in css
