@@ -27,3 +27,20 @@ Terminology:
 - A classification model predicts discrete values. Eg, Is a given email message spam or not spam?
 
 ### Descending into ML
+
+### Reducing Loss
+
+
+
+Learning rate: a hype params that you could decide
+
+Gradient descent(梯度下降法)
+- weight initialization:
+	convex: think of a bowel shape, just one minimum, can start anywhere 
+	foreshadowing: not true for neutral nets
+		* Non-convex d: think of an egg crate, more than one minimumm, strong dependency on initial value
+
+Stochastic gradient descent(随机梯度下降法)
+In order to get the right gradient on average for much less computation, we use Stochastic gradient descent (SGD) to the extreme. The term "stochastic" indicates that the one example comprising each batch is chosen at random.
+
+Mini-Batch gradient descent: intermediate solution, batch of 10-1000
