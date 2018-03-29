@@ -120,6 +120,9 @@
 	margin-right: 15%;
 }
 
+img[alt="tf_api"] { 
+	width: 50%;
+}
 
 
 @media (max-width: 600px){

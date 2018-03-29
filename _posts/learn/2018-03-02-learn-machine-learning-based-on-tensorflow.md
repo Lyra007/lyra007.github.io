@@ -34,13 +34,36 @@ Terminology:
 
 Learning rate: a hype params that you could decide
 
-Gradient descent(梯度下降法)
-- weight initialization:
-	convex: think of a bowel shape, just one minimum, can start anywhere 
-	foreshadowing: not true for neutral nets
-		* Non-convex d: think of an egg crate, more than one minimumm, strong dependency on initial value
+1. Gradient descent(梯度下降法)
 
-Stochastic gradient descent(随机梯度下降法)
+	weight initialization:
+		convex: think of a bowel shape, just one minimum, can start anywhere 
+		foreshadowing: not true for neutral nets
+			* Non-convex d: think of an egg crate, more than one minimumm, strong dependency on initial value
+
+2. Stochastic gradient descent(随机梯度下降法)
 In order to get the right gradient on average for much less computation, we use Stochastic gradient descent (SGD) to the extreme. The term "stochastic" indicates that the one example comprising each batch is chosen at random.
 
-Mini-Batch gradient descent: intermediate solution, batch of 10-1000
+3. Mini-Batch gradient descent: intermediate solution, batch of 10-1000
+
+
+![tf_api](/img/blog/tf_api.png "TensorFlow API Hierarchy toolkits" )
+
+ Format of a linear regression program implemented in tf.estimator
+
+```python
+
+import tensorflow as tf
+
+# Set up a linear classifier.
+classifier = tf.estimator.LinearClassifier()
+
+# Train the model on some example data.
+classifier.train(input_fn=train_input_fn, steps=2000)
+
+# Use it to predict.
+predictions = classifier.predict(input_fn=predict_input_fn)
+
+
+```
+
