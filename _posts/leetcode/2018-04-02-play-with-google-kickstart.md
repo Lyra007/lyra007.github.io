@@ -12,4 +12,4 @@ freopen("input_file_name.in","r",stdin);
 freopen("output_file_name.out","w",stdout);
 ```
 
-Clion is a good ide for C++ practicing
+Clion is a good ide for C++ practicing, but you need specify the wording direactory of the program.
