@@ -22,6 +22,12 @@ Taking github as an example:
     ```
     This will generate the public and private keys.
 
+    Btw, when we do not specify the file directory, we use the default one. So if we need to generate another ssh keys, we could specify the directory in detail like the example before.
+
+    ```
+    ssh-keygen -t rsa -C "your_secondemail@email.com" -f ~/.ssh/second-rsa
+    ```
+
 * Step two: copy those keys to the ssh directory of the windows using cmd
     ```
     cp ~/.ssh/. -R /mnt/c/Users/yourusername/.ssh/
@@ -32,6 +38,22 @@ Taking github as an example:
     ```
     ssh -T git@github.com
     ```
+* Step five&six:
+    Create an config file in ~/.ssh
+    add code like:
+    ```
+    #lyra007 account
+    Host github.com-lyra007
+            HostName github.com
+            User git
+            IdentityFile ~/.ssh/github_rsa
+    ``` 
+
+    using <mark>ssh-add</mark> to add rsa identities to authentication agent.
+    ```
+    ssh-add ~/.ssh/github_rsa
+    ```
+    Then, you could do the step four again to test.
 
 ## Reference:
 * (SSH key and the »Windows Subsystem for Linux)[https://florianbrinkmann.com/en/3436/ssh-key-and-the-windows-subsystem-for-linux/]
