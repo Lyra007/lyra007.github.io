@@ -17,7 +17,23 @@ I want to use create ssh keys in windows environment in order to access my githu
 The basic methodology I followed to solve this problem is to do some workaround based on the reference listed below. 
 Taking github as an example:
 * Step one: generate keys using cmd
+    ```
+    ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+    ```
+    This will generate the public and private keys.
 
+* Step two: copy those keys to the ssh directory of the windows using cmd
+    ```
+    cp ~/.ssh/. -R /mnt/c/Users/yourusername/.ssh/
+    ```
+* Step three: add public key into github
+* Step four: do some tests.
+    one way of test if have correctly connected to the github is to use the below cmd
+    ```
+    ssh -T git@github.com
+    ```
 
 ## Reference:
-(SSH key and the »Windows Subsystem for Linux)[https://florianbrinkmann.com/en/3436/ssh-key-and-the-windows-subsystem-for-linux/]
+* (SSH key and the »Windows Subsystem for Linux)[https://florianbrinkmann.com/en/3436/ssh-key-and-the-windows-subsystem-for-linux/]
+
+* (Connecting to GitHub with SSH)[https://help.github.com/articles/connecting-to-github-with-ssh/]
