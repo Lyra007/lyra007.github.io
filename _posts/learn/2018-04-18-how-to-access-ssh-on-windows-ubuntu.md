@@ -59,3 +59,5 @@ Taking github as an example:
 * (SSH key and the »Windows Subsystem for Linux)[https://florianbrinkmann.com/en/3436/ssh-key-and-the-windows-subsystem-for-linux/]
 
 * (Connecting to GitHub with SSH)[https://help.github.com/articles/connecting-to-github-with-ssh/]
+
+* (Coding help documents)[https://coding.net/help/doc/git/ssh-key.html]
