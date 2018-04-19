@@ -1,8 +1,8 @@
 ---
-layout: learning
+layout: learn
 title: cocos2dx-anchorpoint and position
 date: 2017-11-12 21:03:42 +0800
-categories: game
+categories: learning
 tags: cocos2dx
 keywords: cocos2dx
 ---

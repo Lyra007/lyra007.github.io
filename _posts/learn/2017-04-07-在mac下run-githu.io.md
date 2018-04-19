@@ -36,3 +36,6 @@ BTW, using <mark>jekyll serve</mark> to run github.io
 bundler: exec needs a command to run
 
 bundle exec jekyll serve
+
+
+bundle install --path vendor/bundle to install the gems into ./vendor/bundle/

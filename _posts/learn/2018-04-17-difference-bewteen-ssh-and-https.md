@@ -1,8 +1,8 @@
 ---
-layout: learning
+layout: learn
 title: difference bewteen ssh and https
 date: 2018-04-17 15:14:04 +0800
-categories: learn
+categories: learning
 tags: ssh, https
 keywords: ssh
 ---
