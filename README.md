@@ -20,4 +20,4 @@ The structure of the website will break into four parts.
 * Projects (some quite cool front-end stuff)
 * Exercises (leetcode/ code jam/code force)
 
-Will use the design of (this template)[https://startbootstrap.com/template-overviews/clean-blog/]
+Will use the design of [this template](https://startbootstrap.com/template-overviews/clean-blog/)
