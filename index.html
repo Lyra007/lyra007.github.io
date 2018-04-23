@@ -2,4 +2,16 @@
 layout: default
 ---
 
-<img src="/img/background.jpg" class="front-img" />
+<div class="container">
+    {% for blog in site.posts  %}
+		<div class="blog-preview">
+            <a href="{{blog.url}}">
+                <h2 class="blog-title">{{blog.title}}</h2>
+                <p class="blog-abstract">{{ blog.content | strip_html | truncate:400 }}</p>
+            </a>
+            <p class="blog-meta" >Posted by Lyra on {{ blog.date | date: '%B %d, %Y' }}</p>
+		</div>
+        <hr>
+	{% endfor %}
+</div>
+

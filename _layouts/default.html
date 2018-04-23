@@ -1,42 +1,33 @@
 <!DOCTYPE html>
 <html>
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-　　<!--[if lt IE 9]>
-　　　　<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
-　　<![endif]-->
-<head>
-	<title>Lyra's site</title>
-	<link rel="stylesheet" type="text/css" href="/css/common.css">
-	<link media="all" rel="stylesheet" type="text/css" href="/css/pygments.css" />
-	<link rel="shortcut icon" href=" /favicon.ico" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-</head>
-<body>
-<header>
-	<div class="site-name">
-	<h1><a href="/index" class="title-name"> Lyra's site</a></h1>
-	</div>
-	<div class="nav-bar">
-	{% include nav.html navclass='nav-top' %}
-	</div>
-</header>
+    <head>
+        <title>Lyra's Site</title>
+        <link rel="stylesheet" type="text/css" href="/css/common.css">
+        <link media="all" rel="stylesheet" type="text/css" href="/css/pygments.css" />
+        <link rel="shortcut icon" href=" /favicon.ico" /> 
+    </head>
 
-<div class="clear-content"></div>
-<hr/>
-<div class="content-layout">
-{{content}}
-</div>
+    <body>
+        {% include nav.html navclass='nav-top' %}
 
-<div class="clear-content"></div>
+        <header class= "front-img" >
+            <div class="overlay"></div>
+            <div class="site-heading">
+                <h1>Lyra's Site</h1>
+                <span>面向运气编程</span>
+            </div>
+        </header>
 
-<footer>
+        <div class="content-layout">
+            {{content}}
+        </div>
+        
+        <footer>
+            <p class="right-sentence">© 2017-2018 Created By Lyra. All rights reserved</p>
+        </footer>
 
-	<p class="right-sentence">© 2017 Created By Lyra. All rights reserved</p>
-
-</footer>
-
-
-
-
-</body>
+    </body>
+    
 </html>
