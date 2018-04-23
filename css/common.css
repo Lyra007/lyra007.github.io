@@ -59,6 +59,7 @@
     height: 500px;
     width: 100%;
     z-index: -1;
+    margin-bottom: 50px;
 }
 
 .overlay {
@@ -86,7 +87,37 @@
 * content brief layout
 */
 .content-layout {
+    margin: 0 25%;
+}
 
+.blog-title {
+    font-size: 36px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: 800;
+    color: #212529;
+}
+
+.blog-abstract {
+    color: #a3a3a3;
+    font-style: italic;
+    font-size: 14px;
+}
+
+.blog-preview > a :focus, .blog-preview > a:hover {
+    color: #0085a1;
+}
+
+.blog-meta {
+    font-family: Lora,'Times New Roman',serif;
+    color: #ccc;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
 }
 
 

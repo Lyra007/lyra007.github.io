@@ -2,16 +2,16 @@
 layout: default
 ---
 
-<ul>
+<div class="container">
     {% for blog in site.posts  %}
-		<li class="blog-title-layout">
-		<div >
-			<a href="{{blog.url}}" class="url-hover blog-title" >{{blog.title}}</a>
+		<div class="blog-preview">
+            <a href="{{blog.url}}">
+                <h2 class="blog-title">{{blog.title}}</h2>
+                <p class="blog-abstract">{{ blog.content | strip_html | truncate:400 }}</p>
+            </a>
+            <p class="blog-meta" >Posted by Lyra on {{ blog.date | date: '%B %d, %Y' }}</p>
 		</div>
-		<div class="blog-date">	
-			<p >{{ blog.date | date: '%B %d, %Y' }}</p>
-		</div>	
-		</li>
+        <hr>
 	{% endfor %}
-</ul>
+</div>
 
