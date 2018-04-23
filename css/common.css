@@ -16,6 +16,7 @@
     width: 100%;
     height: 60px;
     line-height: 60px;
+    position: absolute;
 }
 
 .header-nav a {
@@ -48,15 +49,16 @@
     padding: 3px 20px;
 }
 
-header {
-    position: absolute;
-    top: 0px;
-    z-index: -1;
-}
+/*
+* bg image
+*/
 
 .front-img{
-    height: 70%;
+    position: relative;
+    background: url('/img/bg.jpg') no-repeat;
+    height: 500px;
     width: 100%;
+    z-index: -1;
 }
 
 .overlay {
@@ -70,7 +72,8 @@ header {
 .site-heading {
     position: absolute;
     color: #fff;
-    margin: 10% 40%;
+    top: 40%;
+    right: 45%;
     font-size: 25px;
 }
 
@@ -78,3 +81,12 @@ header {
     font-size: 17px;
     margin-left: 40%;
 }
+
+/*
+* content brief layout
+*/
+.content-layout {
+
+}
+
+

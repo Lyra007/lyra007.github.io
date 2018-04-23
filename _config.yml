@@ -2,4 +2,3 @@ exclude: ['README.md', vendor]
 permalink: pretty
 markdown: redcarpet
 highlighter: pygments
-remote_theme: TaylanTatli/Moon
