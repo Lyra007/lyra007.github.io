@@ -53,7 +53,7 @@
 * bg image
 */
 
-.front-img{
+.front-img {
     position: relative;
     background: url('/img/bg.jpg') no-repeat;
     height: 500px;
@@ -87,7 +87,7 @@
 * content brief layout
 */
 .content-layout {
-    margin: 0 25%;
+    margin: 0 30% 10% 30%;
 }
 
 .blog-title {
@@ -96,6 +96,7 @@
     margin-bottom: 10px;
     font-weight: 800;
     color: #212529;
+    line-height: 1.2;
 }
 
 .blog-abstract {
@@ -120,4 +121,30 @@ hr {
     border-top: 1px solid rgba(0,0,0,.1);
 }
 
+/*
+* pager
+*/
 
+.pager-btn {
+    background-color: #0085a1;
+    border-color: #0085a1;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 800;
+    padding: 15px 25px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 0;
+}
+
+.older {
+    float: right;
+}
+
+.newer {
+    float: left;
+}
+
+.pagination {
+    margin-bottom: 20px;
+}
