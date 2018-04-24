@@ -238,6 +238,7 @@ PLATFORMS
 DEPENDENCIES
   ffi (= 1.9.18)
   github-pages
+  jekyll-paginate
   pygments.rb
   redcarpet
 
