@@ -2,6 +2,13 @@
 layout: default
 ---
 
+<!-- header -->
+<div class="site-heading">
+  <h1 class="home-page">Lyra's Site</h1>
+  <span class="home-page">面向运气编程</span>
+</div>
+
+
 <!-- This loops through the paginated posts -->
 <div class="container">
     {% for blog in paginator.posts %}
@@ -23,7 +30,7 @@ layout: default
     <a href="{{ paginator.previous_page_path }}" class="pager-btn newer">
         ← Newer Posts</a>
   {% endif %}
-    
+
   {% if paginator.next_page %}
     <a href="{{ paginator.next_page_path }}" class="pager-btn older">Older Posts →</a>
   {% endif %}
