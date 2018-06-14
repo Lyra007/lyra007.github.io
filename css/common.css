@@ -73,7 +73,7 @@
 .site-heading {
     position: absolute;
     color: #fff;
-    top: 40%;
+    top: 20%;
     right: 45%;
     font-size: 25px;
 }
@@ -156,4 +156,44 @@ hr {
 .footer-sentence {
     text-align: center;
     margin-bottom: 3%;
+}
+
+/*
+* post
+*/
+
+.post-content {
+  color: rgb(64, 64, 64);
+  width: 150%;
+  margin-left: -32%;
+  font-size: 100%;
+}
+
+.post-content li {
+    margin-top: 2%;
+}
+
+h1.post-title {
+    margin-left: 28%;
+    width: 100%;
+}
+
+.post-content h3 {
+  font-size: 200%;
+  margin-top: 2%;
+  margin-bottom: -2%;
+}
+
+.post-content p {
+  margin-top: 4%;
+  line-height: 190%;
+}
+
+.post-content p:first-child {
+  color: rgb(128, 128, 128);
+}
+
+.post-content ul {
+    margin-left: 6%;
+    margin-top: 2%;
 }
