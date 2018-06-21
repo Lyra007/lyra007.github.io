@@ -39,5 +39,5 @@ keywords: js, react
 和[这篇-缓存](https://www.sitepoint.com/cache-fetched-ajax-requests/)
 
 ### 部署
-react的部署服务器用的是nginx。
+react的部署服务器用的是nginx。但是因为需要部署在子目录而不是根目录下，所以操作有些不同。
 ### 其他（包括第三方库的引用，idle activity，svg的引用）

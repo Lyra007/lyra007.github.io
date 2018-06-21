@@ -1,6 +1,6 @@
 exclude: ['README.md', vendor]
 permalink: pretty
 markdown: redcarpet
-highlighter: pygments
+highlighter: rouge
 paginate: 5
 gems: [jekyll-paginate]

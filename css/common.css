@@ -197,3 +197,20 @@ h1.post-title {
     margin-left: 6%;
     margin-top: 2%;
 }
+
+/* code display */
+.highlight, .highlight .w {
+    -webkit-font-smoothing: auto;
+    border: 1px solid #f7bdc7;
+    border-radius: 3px;
+    position: relative;
+    overflow: hidden;
+    width: 80%;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+td.gutter.gl {
+    border-right: 1px solid #f7bdc7;
+    text-align: center;
+}
