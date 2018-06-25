@@ -9,7 +9,7 @@ keywords: js, closure
 这篇文章是为了总结一下闭包，以及顺便提一下函数柯里化。
 
 ### 闭包
-闭包是指有权访问另一个函数作用域中的变量的函数。(Mozilla)[https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Closures]中说，闭包是指函数以及创建该函数的词法环境组合而成的。这个环境包含了这个闭包创建是所能访问的所有局部变量。
+闭包是指有权访问另一个函数作用域中的变量的函数。[Mozilla](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Closures)中说，闭包是指函数以及创建该函数的词法环境组合而成的。这个环境包含了这个闭包创建是所能访问的所有局部变量。
 
 有一个比较有意思的示例是 - makeAdder函数：
 {% highlight javascript linenos%}

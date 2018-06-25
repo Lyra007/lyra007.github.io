@@ -15,7 +15,7 @@ layout: default
 		<div class="blog-preview">
             <a href="{{blog.url}}">
                 <h2 class="blog-title">{{blog.title}}</h2>
-                <p class="blog-abstract">{{ blog.content | strip_html | truncate:400 }}</p>
+                <p class="blog-abstract">{{ blog.content | strip_html | truncate:150 }}</p>
             </a>
             <p class="blog-meta" >Posted by Lyra on {{ blog.date | date: '%B %d, %Y' }}</p>
 		</div>

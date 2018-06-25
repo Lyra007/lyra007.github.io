@@ -112,10 +112,11 @@
 .blog-meta {
     font-family: Lora,'Times New Roman',serif;
     color: #ccc;
+    margin: 2% 0;
+    margin-top: 3%;
 }
 
 hr {
-    margin-top: 1rem;
     margin-bottom: 1rem;
     border: 0;
     border-top: 1px solid rgba(0,0,0,.1);
@@ -225,7 +226,7 @@ pre.lineno {
     background: #eee;
     font-size: 105%;
     padding: 7px;
-    font-family:Consolas,Monaco,'Andale Mono','Ubuntu Mono',monospace;
+    font-family:Consolas,Monaco,'Andale Mono','Ubuntu Mono',monospace !important;
 }
 
 .highlight span.kd {
@@ -251,4 +252,10 @@ blockquote {
 td.gutter.gl {
     border-right: 1px solid #999;
     text-align: center;
+}
+mark {
+    background-color: rgba(220,220,220,.5);
+    border-radius: 2px;
+    padding: 0px 5px;
+    word-wrap: break-word;
 }
