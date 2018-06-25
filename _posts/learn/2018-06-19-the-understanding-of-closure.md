@@ -32,7 +32,8 @@ console.log(add10(2)); // 12
 > Closures are useful because they let you associate some data (the lexical environment) with a function that operates on that data. This has obvious parallels to object-oriented programming, where objects allow us to associate some data (the object's properties) with one or more methods.
 
 #### 闭包模拟私有方法（模块模式）
-JS 可以用闭包来模仿私有方法（private function）的功能。私有方法不仅有利于限制对代码的访问，他们也提供了管理全局命名空间的强大能力，避免了非核心的方法弄乱代码的公共接口。下面这个例子比较有趣。叫做模块模式(module pattern)。
+JS 可以用闭包来模仿私有方法（private function）的功能。私有方法不仅有利于限制对代码的访问，他们也提供了管理全局命名空间的强大能力，避免了非核心的方法弄乱代码的公共接口。下面这个例子比较有趣。叫做模块模式,也就是为单例创建私有变量和特权方法(module pattern)。
+单例是指只有一个实例的对象。在web应用程序中，经常需要使用一个单例来管理应程序级的信息。所以如果必须创建一个对象并以某些数据对其进行初始化，同时还要公开一些能够访问这些私有数据的方法，就可以使用模块模式。以这种模式创建的每个单例都是object实例。
 
 {% highlight javascript linenos%}
 var Counter = (function() {
