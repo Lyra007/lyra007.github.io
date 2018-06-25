@@ -191,7 +191,7 @@ h1.post-title {
 
 .post-content h4 {
     font-size: 140%;
-    margin-top: 5%;
+    margin-top: 3%;
 }
 
 .post-content p:first-child {
@@ -206,16 +206,49 @@ h1.post-title {
 /* code display */
 .highlight, .highlight .w {
     -webkit-font-smoothing: auto;
-    border: 1px solid #f7bdc7;
+    border: 0 solid #3f87a6;
+    border-left-width: 5px!important;
+    border-right-width: 0!important;
     border-radius: 3px;
     position: relative;
     overflow: hidden;
-    width: 80%;
+    width: 100%;
     margin-left: 2%;
     margin-top: 2%;
 }
 
+pre.lineno {
+    color: #999;
+}
+
+.highlight pre {
+    background: #eee;
+    font-size: 105%;
+    padding: 7px;
+    font-family:Consolas,Monaco,'Andale Mono','Ubuntu Mono',monospace;
+}
+
+.highlight span.kd {
+    color: #3f87a6;
+}
+
+.highlight .k, .highlight .kn, .highlight .kp, .highlight .kt, .highlight .kv {
+    color: #3f87a6!important;
+}
+
+.highlight span.c, .highlight span.cd,
+.highlight span.cm, .highlight span.c1,
+ span.p {
+   color: #999;
+}
+
+blockquote {
+    padding: 0 1em;
+    color: #6a737d;
+    border-left: 0.25em solid #dfe2e5;
+}
+
 td.gutter.gl {
-    border-right: 1px solid #f7bdc7;
+    border-right: 1px solid #999;
     text-align: center;
 }
