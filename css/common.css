@@ -185,8 +185,13 @@ h1.post-title {
 }
 
 .post-content p {
-  margin-top: 4%;
+  margin-top: 2%;
   line-height: 190%;
+}
+
+.post-content h4 {
+    font-size: 140%;
+    margin-top: 5%;
 }
 
 .post-content p:first-child {
